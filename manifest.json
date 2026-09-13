@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Google Meet Transcriber",
+  "version": "0.3",
+  "author": "Shashi Kant",
+  "description": "Captures Google Meet's live captions, downloads a timestamped transcript, and can generate a speaker-wise summary.",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://api.groq.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

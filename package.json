@@ -1,0 +1,18 @@
+{
+  "name": "google-meet-transcriber",
+  "version": "0.3.0",
+  "description": "Chrome extension that captures Google Meet's live captions, downloads a transcript, and generates a speaker-wise summary via Groq.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewliang/Chrome-Extension-Base-Template.git"
+  },
+  "author": "Shashi Kant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewliang/Chrome-Extension-Base-Template/issues"
+  },
+  "homepage": "https://github.com/ewliang/Chrome-Extension-Base-Template#readme"
+}

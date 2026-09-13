@@ -60,7 +60,7 @@ Tejas
 
 Overall Summary
 ---------------
-The team aligned on next steps for deployment...
+Participants agreed to finalize the backend using FastAPI and MongoDB, keeping it modular for future authentication. The front‑end will be built with React, displaying summaries and action items, with the first release focusing on transcription and summarization. Tasks were divided: one person handles the React dashboard, the other sets up the API and database.
 ```
 
 This calls Groq's free-tier API (`openai/gpt-oss-120b` — Groq retired

@@ -44,14 +44,19 @@ Detector APIs — no API key, no server, nothing leaves your machine.
 Click **Summarize by Speaker** after stopping a capture to get:
 
 ```
-Alice
+Gulshan Kumar
 -----
-• Sent the proposal
-• Asked about timeline
+• Finalize backend architecture today 
+• Prefer FastAPI: lightweight, easy ML integration
+• Use MongoDB to store transcripts and generate summaries 
+• Keep API modular for future authentication
 
-Bob
+Tejas 
 ---
-• Suggested using Kubernetes
+• Use React for front‑end dashboard
+• Show summary and important action items to users 
+• First version: focus on transcription and summarization, defer authentication 
+  • Assign React dashboard to me; backend and MongoDB to you
 
 Overall Summary
 ---------------
